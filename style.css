@@ -204,7 +204,7 @@ hr {
     display: flex;
     flex-direction: column;
     position: absolute;
-    z-index: 2;
+    z-index: 24;
     width: 94vw;
     margin: 10px;
     margin-top: 40px;
@@ -225,7 +225,7 @@ hr {
 
 .basket-filled {
     position: absolute;
-    z-index: 2;
+    z-index: 23;
     background-color: white;
     width: 94vw;
     margin: 10px;
@@ -350,7 +350,7 @@ button{
     top: 0;
     left: -100%;
     width: 100%;
-    z-index: 2;
+    z-index: 25;
     left: 0;
     background-color: rgba(0, 0, 0, 0.68);
     display: none;

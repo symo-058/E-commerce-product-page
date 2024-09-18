@@ -96,6 +96,7 @@ checkoutBtn.addEventListener("click", function (){
     bubbleDisplay.style.visibility = 'hidden'
     filledBasket.style.visibility = "hidden";
     itemsAdded.textContent = 0;
+    location.reload();
 })
 
 const nowPrice = document.querySelector('.now-price')
